@@ -1,0 +1,59 @@
+/*
+    Style for Html Formatter
+    overrides mini-dark.css
+*/
+
+:root {
+    --universal-border-radius: 0.75rem;
+}
+
+
+/* Util: */
+
+.center {
+    text-align: center;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.small {
+    font-size: 0.7em;
+}
+
+/* Main style */
+
+body {
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+    color: #888;
+    margin-top: 0;
+}
+
+/* Custom scrollbar: */
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
