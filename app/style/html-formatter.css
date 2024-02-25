@@ -31,7 +31,7 @@
 body {
     height: 100%;
     overflow-x: hidden;
-    background-color: rgba(255,0,0,0);
+    background-color: #282828;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -46,6 +46,10 @@ h1 {
     margin-top: 0;
 }
 
+.container {
+	padding: 0.5em 0.75em;
+}
+
 .box {
     display: flex;
     white-space: nowrap;
@@ -53,7 +57,7 @@ h1 {
 
 .icon {
     margin-right: 0.5em;
-    opacity: 0.5;
+    opacity: 0.75;
     color: green;
 }
 
