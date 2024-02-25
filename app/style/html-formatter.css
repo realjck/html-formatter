@@ -54,9 +54,17 @@ h1 {
     display: flex;
     white-space: nowrap;
 }
+.box:hover {
+	background-color: #004080;
+	cursor: zoom-in;
+}
+
+.box:hover .name {
+	font-size: 2em;
+}
 
 .icon {
-    margin-right: 0.5em;
+	margin: auto 0.5em auto 0;
     opacity: 0.75;
     color: green;
 }
